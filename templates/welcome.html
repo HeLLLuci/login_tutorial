@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        html, body {
+            height: 100%; /* Ensure HTML and body elements take up the full height of the viewport */
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: whitesmoke;
+            color: black; /* White text */
+            margin: 0;
+            padding: 0;
+        }
+
+        .heading-container {
+            background-image: url("picture\ \(2\).jpg");
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white; /* White text */
+            margin: 0;
+            padding: 20px;
+            border-radius: 0 0 50% 50%; /* Curved shape */
+        }
+
+        .nav-links {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 36px; /* Increase font size */
+            font-weight: bold; /* Make text bold */
+            display: inline-block; /* Display as inline block to contain the background */
+            padding: 5px 10px; /* Add padding to create space around the text */
+            /* Apply background gradient */
+            border-radius: 10px; /* Add border radius */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: white; /* Blue button background */
+            color: black; /* White text */
+            border: none;
+            border-radius: 25px;
+        }
+
+        button:hover {
+            background-color: #00f2fe; /* Cyan hover effect */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading-container">
+        <h1></h1>
+    </div>
+
+    <div class="nav-links">
+        <a href="projectallocation.html">Project Allocation</a>
+        <a href="TaskStatus.html">Task Status</a>
+        <a href="profile.html">Profile</a>
+    </div>
+   
+    <div class="content">
+        <h2>WELCOME TO INSTA-ICT</h2>
+        <br>
+        <br>
+        <button id="taskAllocationButton" onclick="redirectToTaskAllocation()">Task Allocation</button>
+        <button id="downloadReportButton" onclick="downloadReport()">Download Report</button>
+    </div>
+
+    <script>
+        function redirectToTaskAllocation() {
+            // You can replace the URL with the actual link to your Task Allocation page
+            window.location.href = 'projectallocation.html';
+        }
+
+        function downloadReport() {
+            // You can add your logic for generating and downloading the report here
+            window.location.href = 'downloadreport.html';
+        }
+    </script>
+
+</body>
+</html>

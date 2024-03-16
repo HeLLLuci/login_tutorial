@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "585196497723",
+    "firebase_url": "https://python-tutorial-4ad96-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "python-tutorial-4ad96",
+    "storage_bucket": "python-tutorial-4ad96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585196497723:android:c19e50aaf7b12917e2a51e",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPb8FU7o2hjaKQKZ5cfLRsNO3zKZrx_4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

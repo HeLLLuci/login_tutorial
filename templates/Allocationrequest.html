@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes or No</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 15%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .yes {
+            background-color: #2ECC71; /* Green */
+            color: white;
+            border-radius: 25px;
+            margin-right: 10%;
+        }
+
+        .no {
+            background-color: #2ECC71;
+            color: white;
+            border-radius: 25px;
+        }
+        .heading-container {
+            background-image: url("picture\ \(2\).jpg");
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-container">
+        <h1> Availability Page </h1>
+    </div>
+    
+    <div class="container">
+        <h2>Are You Available Today ?</h2>
+<!--        <div class="options">-->
+<!--            <button class="yes" onclick="navigateToPage('TaskAllocatedstatus.html')">Yes</button>-->
+<!--            <button class="no" onclick="navigateToPage('nooption.html')">No</button>-->
+<!--        </div>-->
+    </div>
+
+    <script>
+        function navigateToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
